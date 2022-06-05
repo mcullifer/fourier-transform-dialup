@@ -7,4 +7,4 @@ y = Frequency (Hz)
 ```
 
 
-![alt text](https://raw.githubusercontent.com/mcullifer/fourier-transform-dialup/master/graphs/graph.png)
+![alt text](https://raw.githubusercontent.com/mcullifer/fourier-transform-dialup/master/graphs/graph2.png)
