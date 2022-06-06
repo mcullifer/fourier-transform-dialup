@@ -6,7 +6,7 @@ def read_audio(file_path):
     return samplerate, data
 
 def short_time_fourier(data, samplerate, window):
-    spectrum = signal.stft(
+    f, t, Zxx = signal.stft(
                             x = data, 
                             fs = samplerate,
                             window = window,
@@ -14,5 +14,5 @@ def short_time_fourier(data, samplerate, window):
                             return_onesided = True,
                             boundary = 'zeros',
                             padded = True)
-    return spectrum
+    return f, t, Zxx
 
